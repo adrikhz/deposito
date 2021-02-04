@@ -9,7 +9,7 @@ public class ConsumirTest {
 		DepositoCombustible d = new DepositoCombustible(50, 20);
 		d.consumir(15);
 		double res = d.getDepositoNivel();
-		assertEquals(res, 5, 0);
+		assertEquals(5, res, 0);
 	}
 
 }
