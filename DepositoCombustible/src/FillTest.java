@@ -9,7 +9,7 @@ public class FillTest {
 		DepositoCombustible d = new DepositoCombustible(50, 20);
 		d.fill(20);
 		double res = d.getDepositoNivel();
-		assertEquals(res, 40, 0);
+		assertEquals(40, res, 0);
 	}
 
 }
