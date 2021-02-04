@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class DepositoCombustibleTest {
+public class GetDepositoMaxTest {
 
 	@Test
 	public void testGetDepositoMax() {
